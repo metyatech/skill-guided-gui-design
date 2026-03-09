@@ -72,6 +72,8 @@ At every stage, the user should be able to answer:
 
 If the screen cannot answer those questions quickly, simplify the structure or wording.
 
+In interactive flows (drag-and-drop, selection, move, compare), always make the current selection, source item, and target visually distinct. The user must be able to answer "what am I acting on right now?" at a glance — without reading a status message or tooltip. Use visual weight, border, highlight, or label to differentiate selected, source, and target states.
+
 ### 6. Show the most decision-relevant result first
 
 Once inputs are in place, put the main decision number or comparison first.
@@ -91,6 +93,10 @@ Minimum review questions:
 3. Do I know which result matters most?
 4. Do I see internal jargon that users would not understand?
 5. Does the page still work without external explanation?
+6. Does the primary UI require any horizontal scrolling at normal viewport sizes?
+7. Are there any overflow, clipping, or unexpected text-wrapping issues?
+
+For any major GUI change, take a screenshot and do a visual review before treating the work as complete. Spot-check overflow and layout at both normal and reduced widths.
 
 ## Common fixes
 

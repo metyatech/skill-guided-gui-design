@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented here.
 
+## [0.1.3] - 2026-03-09
+
+### Changed
+
+- Added guidance for visually separating the current selection, source item, and target in interactive GUI flows
+- Added checks for horizontal scrolling, clipping, and awkward text wrapping in primary UI
+- Added screenshot-based visual review guidance for major GUI changes
+
 ## [0.1.2] - 2026-03-09
 
 ### Fixed
