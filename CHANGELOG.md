@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented here.
 
+## [0.1.2] - 2026-03-09
+
+### Fixed
+
+- Stopped running CodeQL on this docs-only skill repository when no JavaScript/TypeScript source files are present
+
 ## [0.1.1] - 2026-03-09
 
 ### Fixed
