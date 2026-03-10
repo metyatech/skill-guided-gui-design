@@ -59,10 +59,12 @@ Run these checks before marking any major GUI change complete.
 
 Interactive flows include: drag-and-drop, item selection, move/copy/reorder, compare mode, multi-select.
 
+- [ ] The currently selected item, the choice list, and the destination of the chosen result are visually and spatially explicit
 - [ ] The currently selected item has a distinct visual treatment (border, background, icon, or bold label) that does not rely on colour alone
 - [ ] Source and target zones are visually differentiated from each other and from neutral areas
 - [ ] The user can identify "what am I acting on right now?" without reading a tooltip or status bar
 - [ ] Deselected and empty states look clearly different from selected ones
+- [ ] Prefer anchored drawers, callouts, overlays, or similar patterns over detached panels when they improve comprehension
 
 **Example — good:** A list of items where the selected row has a solid left border, a light background fill, and its label is bold. Dragging it highlights the drop zone with a dashed border.
 
@@ -71,6 +73,7 @@ Interactive flows include: drag-and-drop, item selection, move/copy/reorder, com
 ### Screenshots and visual review
 
 - Take a screenshot immediately after implementing any major layout change
+- Comprehension wins over style: stylistic richness or "game-like" presentation is not success if users cannot immediately tell what is selected, what they are choosing from, and where the change will apply
 - Compare against the previous screenshot or design reference before continuing
 - If the diff shows unexpected overflow or alignment, fix before moving on
 - Do not rely solely on code review to catch layout regressions; visual review is required

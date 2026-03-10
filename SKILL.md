@@ -72,7 +72,7 @@ At every stage, the user should be able to answer:
 
 If the screen cannot answer those questions quickly, simplify the structure or wording.
 
-In interactive flows (drag-and-drop, selection, move, compare), always make the current selection, source item, and target visually distinct. The user must be able to answer "what am I acting on right now?" at a glance — without reading a status message or tooltip. Use visual weight, border, highlight, or label to differentiate selected, source, and target states.
+In interactive flows (drag-and-drop, selection, move, compare), always make the current selection, source item, and target visually and spatially explicit. The user must be able to answer "what am I acting on right now?" at a glance 窶 without reading a status message or tooltip. Use visual weight, border, highlight, or label to differentiate selected, source, and target states. Prefer anchored drawers, callouts, overlays, or similar patterns over detached panels when they improve comprehension.
 
 ### 6. Show the most decision-relevant result first
 
