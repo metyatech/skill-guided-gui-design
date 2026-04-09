@@ -2,6 +2,16 @@
 
 All notable changes to this project are documented here.
 
+## [0.2.0] - 2026-04-09
+
+### Changed
+
+- Reframed the skill around established HCI and usability foundations instead of informal GUI heuristics alone
+- Added explicit design lenses for Norman, Nielsen heuristics, cognitive load, Hick-Hyman, Fitts, Gestalt, and accessibility
+- Expanded the workflow to cover state visibility, interaction cost, error prevention, and recovery
+- Added a reference file with theory-to-design mappings and source anchors for deeper justification
+- Updated the README review checklist to cover feedback visibility, recovery, and evidence-based GUI review
+
 ## [0.1.3] - 2026-03-09
 
 ### Changed

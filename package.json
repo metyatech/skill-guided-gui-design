@@ -1,8 +1,8 @@
 {
   "name": "skill-guided-gui-design",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "private": true,
-  "description": "Agent skill for designing low-cognitive-load guided GUIs",
+  "description": "Agent skill for designing guided GUIs from HCI and usability principles",
   "scripts": {
     "lint": "markdownlint **/*.md --ignore node_modules --ignore AGENTS.md",
     "format": "prettier --write .",
