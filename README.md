@@ -7,6 +7,7 @@ It focuses on:
 
 - task-centered GUI structure
 - low first-use cognitive load
+- self-revealing UI that teaches through structure before prose
 - clear system state, selection, and next action
 - error prevention and recovery
 - evidence-based visual and interaction review
@@ -38,7 +39,7 @@ Use this skill when:
 - designing or reviewing a user-facing GUI
 - simplifying a dense screen
 - reducing first-use confusion
-- rewriting UI copy so it teaches itself
+- rewriting UI copy so it supports a self-revealing flow instead of carrying it
 - checking whether a screen can be used by following the primary visual path
 - reviewing interactive flows for unclear selection, source/target, or drag state
 - auditing layout for overflow, clipping, or horizontal scrolling issues

@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here.
 
+## [0.2.1] - 2026-04-09
+
+### Changed
+
+- Clarified that self-revealing UI should be preferred over persistent instructional prose when the flow can be inferred from structure, order, labels, and feedback
+- Clarified that precise operator or domain vocabulary may remain when it matches the user's real work, while irrelevant implementation jargon should still be removed
+
 ## [0.2.0] - 2026-04-09
 
 ### Changed

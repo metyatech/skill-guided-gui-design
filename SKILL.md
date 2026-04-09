@@ -81,14 +81,17 @@ Reduce what the user must think about at the start.
 - delay advanced detail until the user has context
 - prefer one clear next action over many equal-weight choices
 - avoid requiring users to remember hidden rules from previous screens
+- prefer self-revealing UI over persistent instructional prose
+- use layout, ordering, grouping, labels, and feedback to teach the flow first
+- add explanatory prose only when the next action cannot be inferred reliably from the UI itself
 
 Do not split into beginner/expert modes unless the user explicitly asks for
 that boundary.
 
 ### 4. Remove internal wording and recall burden
 
-Replace implementation language and site-only jargon with ordinary task
-language.
+Replace irrelevant implementation language and site-only jargon with ordinary
+task language.
 
 - Good: `Choose the shot to edit`
 - Bad: `Select output artifact`, `Bind manifest target`
@@ -97,8 +100,10 @@ Recognition is better than recall. Prefer visible labels, examples, current
 selection indicators, and inline explanations over requiring the user to
 remember prior context.
 
-If a domain term is genuinely necessary, explain it inline without breaking the
-flow.
+If a precise operator or domain term is genuinely part of the user's real work,
+keep it. Remove only wording that reflects the implementation model rather than
+the user's task. If a domain term still needs support, explain it inline
+without breaking the flow.
 
 ### 5. Make state and next action obvious
 
