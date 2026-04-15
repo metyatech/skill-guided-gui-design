@@ -2,6 +2,18 @@
 
 All notable changes to this project are documented here.
 
+## [0.3.0] - 2026-04-15
+
+### Changed
+
+- Expanded theory lens table from 8 to 15 lenses: added human-centered design (ISO 9241-210), Norman's gulfs of execution and evaluation, Shneiderman's 8 golden rules, Steering law, visual hierarchy and information scent (Pirolli), Reason's slip/mistake model with Poka-yoke, and platform conventions (Material, HIG, Fluent)
+- Restructured workflow from 9 to 11 steps with dedicated sections for deliberate visual structure (Gestalt, hierarchy) and accessibility as a baseline rather than a finishing pass
+- Added lightweight evaluation methods section covering heuristic evaluation, cognitive walkthrough, first-click test, and think-aloud
+- Added review question 11 (grayscale state-cue check) and question 12 (platform conventions check)
+- Added accessibility baseline section to the README visual quality checklist
+- Clarified the skill's relationship to the gui-standards rule module: gui-standards states non-negotiable obligations; this skill provides theory, lenses, workflow, and judgement guidance
+- Reorganized the references document into 11 numbered sections with named source anchors for each principle
+
 ## [0.2.1] - 2026-04-09
 
 ### Changed
